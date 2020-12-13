@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/trackingStyles.css">
+    <script src="https://kit.fontawesome.com/28515afa0b.js" crossorigin="anonymous"></script>
+    <title>Carbon Tracker</title>
+</head>
+<body>
+    <header>
+        <i class="fas fa-tree" style="font-size: 3em"></i>
+        <i class="fas fa-list" style="font-size: 3em"></i>
+        <i class="fas fa-user" style="font-size: 3em"></i>
+        <hr>
+        <h1>Hello, John, estimated CO2 this month is 15 kg</h1>
+        <p>+5% vs last month</p>
+        <p>-15% vs same period last year</p>
+        <p>+30% vs average person</p>
+
+    </header>
+    <main>
+        <section>
+            <h2 class="visuallyhidden">Chart</h2>
+            <img src="src/img/trackingChart.jpg" alt="Tracking Chart" width="350" height="300">
+        </section>      
+        <section>
+            <h2 class="visuallyhidden">Tracking</h2>
+        </section>
+        <section>
+            <h3 class="visuallyhidden">Housing</h3>
+            <i class="fas fa-home" style="font-size: 1.5em"></i>
+            <select name="housingEmission" id="housingEmission">
+                <option value=1>Electricity</option>
+                <option value=2>Natural Gas</option>
+                <option value=3>Fuel Oil</option>
+                <option value=4>LPG</option>
+                <option value=5>Waste</option>
+                <option value=6>Water</option>
+            </select>
+            <label for="house_use_input" class="visuallyhidden">Enter use (kWh/month)</label>
+            <input id="house_use_input"></input>
+            <button>Track</button>
+        </section>
+        <section>
+            <h3 class="visuallyhidden">Travel</h3>
+            <i class="fas fa-globe-asia" style="font-size: 1.5em"></i>
+            <select name="travelEmission" id="travelEmission">
+                <option value=1>Vehicle</option>
+                <option value=2>Bus</option>
+                <option value=3>Metro</option>
+                <option value=4>Taxi</option>
+                <option value=5>Rail</option>
+                <option value=6>Flying</option>
+            </select>
+            <label for="travel_use_input" class="visuallyhidden">Enter distance (km/month)</label>
+            <input id="travel_use_input"></input>
+            <button>Track</button>
+        </section>
+        <section>
+            <h3 class="visuallyhidden">Travel</h3>
+            <i class="fas fa-utensils" style="font-size: 1.5em"></i>
+            <select name="foodEmission" id="foodEmission">
+                <option value=1>Red meat</option>
+                <option value=2>White meat</option>
+                <option value=3>Dairy</option>
+                <option value=4>Cereals</option>
+                <option value=5>Vegetables</option>
+                <option value=6>Fruit</option>
+                <option value=7>Oils</option>
+                <option value=8>Snacks</option>
+                <option value=9>Drinks</option>
+            </select>
+            <label for="food_use_input" class="visuallyhidden">Enter consumption (kCal/day)</label>
+            <input id="food_use_input"></input>
+            <button>Track</button>
+        </section>
+        <section>
+            <h3 class="visuallyhidden">Travel</h3>
+            <i class="fas fa-shopping-cart" style="font-size: 1.5em"></i>
+            <select name="productsEmission" id="productsEmission">
+                <option value=1>Electrical</option>
+                <option value=2>Household</option>
+                <option value=3>Clothes</option>
+                <option value=4>Medical</option>
+                <option value=5>Recreational</option>
+                <option value=6>Other</option>
+            </select>
+            <label for="products_use_input" class="visuallyhidden">Enter spend (£/month)</label>
+            <input id="products_use_input"></input>
+            <button>Track</button>
+        </section>
+        <section>
+            <h3 class="visuallyhidden">Travel</h3>
+            <i class="fas fa-wrench" style="font-size: 1.5em"></i>
+            <select name="servicesEmission" id="servicesEmission">
+                <option value=1>Health</option>
+                <option value=2>Finance</option>
+                <option value=3>Recreation</option>
+                <option value=4>Education</option>
+                <option value=5>Vehicle</option>
+                <option value=6>Communications</option>
+                <option value=7>Other</option>
+            </select>
+            <label for="services_use_input" class="visuallyhidden">Enter spend (£/month)</label>
+            <input id="services_use_input"></input>
+            <button>Track</button>
+        </section>
+
+
+        
+    </main>
+    
+</body>
+</html>
