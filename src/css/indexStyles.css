@@ -1,3 +1,5 @@
+/* Colors */
+
 .green {
     color: #31AA1C;
   }
@@ -5,6 +7,10 @@
 .green:hover {
    color:  #31AA1C;
 }
+
+.green-border {
+    border: 1px groove #31AA1C;
+ }
 
 .red {
     color: #F43423;
@@ -21,11 +27,63 @@
    /* border: 2px solid #FBD415; */
 }
 
+html, body {
+    min-height:100%;
+}
+
+body{
+    width: 100%;
+    height:100vh;    
+    background-color: #F4F7F5;
+    font-size: calc(0.75em + 0.75vw);
+}
+
+table {
+  margin-left: 20px;  
+}
+
+tr {
+    padding: 5px;
+}
+
+tr.padding-sm {
+    padding: 0px;
+}
+
+td {
+    padding: 10px;
+}
+
+td.padding-sm {
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.content-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.carbon-button {
+    align-self: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
 
 .action {
     font-weight: bold;
     border-radius: 4px;
-    text-align: center;
+    text-align: left;
     font-size: calc(0.9em + 1vw);
     vertical-align: middle;
 }
@@ -33,46 +91,44 @@
 .action-description{    
     vertical-align: middle;
     text-align: left;
+    font-size: calc(0.75em + 0.75vw);
+}
+
+.font-xl {
+    font-size: calc(1.25em + 1vw);
+}
+
+.font-lg {
+    font-size: calc(0.75em + 1vw); 
+}
+
+.font-md {
     font-size: calc(0.75em + 1vw);
 }
 
-h3 {
-    font-size: calc(0.75em + 1.5vw);
-    margin-bottom: 0px;
+.font-sm {
+    font-size: calc(0.6em + 0.75vw);
 }
 
 h1 {
-    font-size: calc(1.25em + 1.5vw);
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-h4 {
-    font-size: calc(0.75em + 1vw);
+    margin: 20px;
 }
 
 p {
-    font-size: calc(0.75em + 1vw);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: left;
+    margin: 20px;
 }
 
-
-header {
-   border: 1px groove #31AA1C;
-   width: 100%;  
-}
-
-body {
-    background-color: #F4F7F5;
+.margin-sm {
+    margin: 10px;
 }
 
 .margin-left-sm {
     margin-left: 10px;
 }
 
-.margin-btm-sm {
-    margin-bottom: 15px;
+.margin-btm-lg {
+    margin-bottom: 40px;
 }
 
 /*   F7D978  - Yellow
