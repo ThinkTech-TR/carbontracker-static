@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="src/css/loginStyles.css">
+    <title>Carbon Tracker</title>    
+</head>
+<body>
+    <header>
+        <h2><img src="src/icon/tree-fill.svg" alt="" width="32" height="32">Log in to carbon Tracker App</h2>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <p>Log in to Carbon Tracker App. Calculating your carbon footprint can help you to prioritise the steps
+                        you can take to shrink it, by identifying what the biggest opportunities for reductions are.</p>
+                </div>
+                <div class="login col-12 col-md-6">
+                    <h3 class="visuallyhidden">Log in with Email</h3>
+                    <label for="email_input" class="visuallyhidden">Email</label>
+                    <input id="email_input"></input>
+                    <br>
+                    <label for="password_input" class="visuallyhidden">Password</label>
+                    <input id="password_input"></input>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary">Log In</button>
+                </div>
+                <div class="loginWIth col-12 col-md-6">
+                    <p>OR</p>
+                    <div class="d-md-none">
+                        <button type="button" class="btn btn-outline-secondary"><img src="src/icon/facebook.svg" alt="" width="32" height="32"></button>
+                        <button type="button" class="btn btn-outline-secondary"><img src="src/icon/google.svg" alt="" width="32" height="32"></button>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <button type="button" class="btn btn-outline-secondary"><img src="src/icon/facebook.svg" alt="" width="32" height="32">Sign in with Facebook</button>
+                        <button type="button" class="btn btn-outline-secondary"><img src="src/icon/google.svg" alt="" width="32" height="32">Sign in with Google</button>
+                    </div>
+                </div>
+                <div>
+                    <p>Don't have an account?<a href="#">Sign Up</a></p>
+                    <p><a href="#">Forgot Password?</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
