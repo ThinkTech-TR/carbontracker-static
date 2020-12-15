@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/28515afa0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="src/css/indexStyles.css">
     <link rel='shortcut icon' href='src/img/favicon.ico' />
     <title>Carbon Tracker App</title>
@@ -27,38 +28,39 @@
         <div class="content-flex">
             <div>
                 <h1 class="font-xl">One step at a time towards a better world</h1>
-            </div>            
+            </div>
+            <!-- ToDo Stop Animation Appearing Twice-->
             <table class="d-md-none">
-                <tr>
+                <tr class="animate__animated animate__fadeInRight animate__slow">
                     <td class="action red">Estimate</td>
                     <td>Your carbon footprint</td>
                 </tr>
-                <tr>
+                <tr class="animate__animated animate__fadeInRight animate__slow animate__delay-1s">
                     <td class="action orange">Track</td>
                     <td>Your ongoing carbon usage</td>
                 </tr>
-                <tr>
+                <tr class="animate__animated animate__fadeInRight animate__slow animate__delay-2s">
                     <td class="action purple">Join</td>
                     <td>Your organisation or friends</td>
                 </tr>
-                <tr>
+                <tr class="animate__animated animate__fadeInRight animate__slow animate__delay-3s">
                     <td class="action green">Reduce</td>
                     <td>Your impact on the planet</td>
                 </tr>
             </table>
             <table class="d-none d-md-block">
                 <tr class="padding-sm">
-                    <td class="action red padding-sm">Estimate</td>
-                    <td class="action orange padding-sm">Track</td>
-                    <td class="action purple padding-sm">Join</td>
-                    <td class="action green padding-sm">Reduce</td>
+                    <td class="action red padding-sm animate__animated animate__fadeInRight animate__slow">Estimate</td>
+                    <td class="action orange padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-1s">Track</td>
+                    <td class="action purple padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-2s">Join</td>
+                    <td class="action green padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-3s">Reduce</td>
                 </tr>
                 <tr>
-                    <td class="padding-sm">Your carbon footprint</td>
-                    <td class="padding-sm">Your ongoing carbon usage</td>
-                    <td class="padding-sm">Your organisation or friends</td>
-                    <td class="padding-sm">Your impact on the planet</td>
-                </tr>               
+                    <td class="padding-sm animate__animated animate__fadeInRight animate__slow">Your carbon footprint</td>
+                    <td class="padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-1s">Your ongoing carbon usage</td>
+                    <td class="padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-2s">Your organisation or friends</td>
+                    <td class="padding-sm animate__animated animate__fadeInRight animate__slow animate__delay-3s">Your impact on the planet</td>
+                </tr>
             </table>
             <p>Our tracker allows you to measure, understand and track your carbon footprint as an
                 individual or an organisation. Join together with friends or your team at work to reduce your
