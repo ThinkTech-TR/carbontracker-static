@@ -14,17 +14,14 @@
 
 .red {
     color: #F43423;
-    /* border: 2px solid #F43423; */
 }
 
 .orange {
    color: orange;
-   /* border: 2px solid #EF7622; */
 }
 
 .purple {   
    color:purple;
-   /* border: 2px solid #FBD415; */
 }
 
 html, body {
@@ -35,7 +32,7 @@ html, body {
 
 body{
     width: 100%;
-    font-size: calc(0.75em + 0.75vw);
+    font-size: calc(0.8em + 0.6vw);
 }
 
 header {
@@ -49,28 +46,7 @@ h1 {
 p {
     text-align: left;
     margin: 20px;
-}
-
-table {
-  margin-left: 20px;  
-}
-
-tr {
-    padding: 5px;
-}
-
-tr.padding-sm {
-    padding: 0px;
-}
-
-td {
-    padding: 10px;
-}
-
-td.padding-sm {
-    padding-right: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    font-size: calc(0.6em + 0.5vw);
 }
 
 .page-container {
@@ -79,41 +55,67 @@ td.padding-sm {
     width: 100%;
 }
 
+.actions-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .actions-container-sm {
+      flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .action-container-sm {
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: flex-start;      
+      margin-bottom: 20px;
+      margin-right: 10px;
+    }
+}
+
 .carbon-button {
     align-self: center;
     vertical-align: middle;
     margin-bottom: 20px;
-    margin-top: calc(0.9em + 1vw);
+    margin-top: calc(0.9em + 0.75vw);
 }
 
 .action {
     font-weight: bold;
     border-radius: 4px;
     text-align: left;
-    font-size: calc(0.9em + 1vw);
+    font-size: calc(0.9em + 0.75vw);
     vertical-align: middle;
-}
-
-.action-description{    
-    vertical-align: middle;
-    text-align: left;
-    font-size: calc(0.75em + 0.75vw);
 }
 
 .font-xl {
-    font-size: calc(1.25em + 1vw);
+    font-size: calc(1.25em + 0.7vw);
 }
 
 .font-lg {
-    font-size: calc(0.75em + 1vw); 
+    font-size: calc(0.75em + 0.7vw); 
 }
 
 .font-md {
-    font-size: calc(0.75em + 1vw);
+    font-size: calc(0.75em + 0.7vw);
 }
 
 .font-sm {
-    font-size: calc(0.6em + 0.75vw);
+    font-size: calc(0.6em + 0.5vw);
+}
+
+.min-width-110 {
+    min-width: 110px;
 }
 
 .margin-sm {
