@@ -16,8 +16,6 @@
  .user-actions {
     width: 70px;
     height: 50px;
-    ali
-
  }
 
 .navigation {
@@ -25,6 +23,41 @@
     padding-right: 16px;
     background-color: #ffffff;
     height: 55px;
+}
+
+.title {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.analysis-tabs {
+    display: flex;
+    margin-top:50px;
+    flex-direction: column;
+}
+.analysis-summary {
+    display: flex;
+    margin-top:50px;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    border-bottom: 0px;
+    background-color: #F4F7F5;
+    height: 100%;
+    width: 100%;
+}
+
+.feets-graph {
+    width: 470px;
+    height: 450px;
+    text-align: center;
+
 }
 
 .red {
@@ -87,7 +120,7 @@ td.padding-sm {
 .page-container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
     justify-content: space-between;
 }
 
